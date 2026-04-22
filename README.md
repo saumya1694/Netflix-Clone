@@ -1,49 +1,85 @@
 # Netflix Clone
 
-- Demo: <https://netflix-clone-ebon-nu.vercel.app/>
+A simplified front-end clone of Netflix built using React and CSS. The project uses Flexbox and Grid to create a responsive user interface and fetches movie and TV show data from The MovieDB API.
 
-This project is a simplified front end clone of Netflix. It was created with React and CSS (Grid and Flexbox). It uses [The MovieDB Api](https://www.themoviedb.org/documentation/api) to search for movies and display details. Feel free to contribute!
+## Features
 
-### TODO's
+* Responsive Netflix-like UI
+* Movie and TV show categories
+* Trending and popular content sections
+* Dynamic banner section
+* Data fetched using The MovieDB API
+* Built with React components and reusable styling
 
-- [ ] Implement Not Found page styles
-- [ ] Implement navigation header links functionality
-- [ ] Update modal to current styling
-- [ ] Update carousel to current styling
-- [ ] Create movie page
-- [ ] Create user account page
-- [x] Migrate to Typescript
-- [ ] Implement dynamic code splitting with dynamic imports
-- [x] Setup storybook
-- [ ] Implement internationalization with react-i18next
-- [ ] Exclude storybook files from test coverage
+## Tech Stack
 
-### Tools used
+* React
+* CSS (Flexbox & Grid)
+* JavaScript
+* The MovieDB API
 
-- Webpack v5
-- Axios
-- Redux & React
-- Sass (grid & flexbox)
-- Media queries
-- Swiper JS
+## Installation
 
-### Runing Project Locally
+1. Clone the repository
 
-- Install dependencies: run `npm install` in root project
-- Get API key from [here](https://www.themoviedb.org/documentation/api)
-- Create .env file in root project and add: `API_KEY=YOUR_API_KEY_HERE`
-- Run project: `npm run dev`
+```bash
+git clone <repository-url>
+```
 
-### User Stories
+2. Navigate to the project folder
 
-- User can search for movies and TV shows on TMDb
-- User can the see upcoming and trending movies. Data updates weekly
-- User can click on a movie and a modal should pop up. It should display the title, release date, overview, and runtime.
-- The webpage adapts to any screen size.
+```bash
+cd netflix-clone
+```
 
-### Video Walktrough
+3. Install dependencies
 
-![](https://github.com/AndresXI/Netflix-Clone/blob/master/netflix-demo.gif?raw=true)
+```bash
+npm install
+```
 
-Please feel free to create a pull request and submit any issues!
-Currently looking for backend developers. If you would to contribute to support a backend, reach out, all ideas are welcomed!
+4. Create a `.env` file in the root directory and add your TMDB API key
+
+```env
+REACT_APP_TMDB_API_KEY=your_api_key
+```
+
+5. Start the development server
+
+```bash
+npm start
+```
+
+6. Open your browser and visit
+
+```bash
+http://localhost:3000
+```
+
+## Project Structure
+
+```bash
+src/
+├── components/
+├── pages/
+├── App.js
+├── index.js
+└── styles/
+```
+
+## API Reference
+
+This project uses The MovieDB API to fetch movie and TV show information.
+
+Get your API key from: https://www.themoviedb.org/
+
+## Future Improvements
+
+* Add movie details page
+* Implement search functionality
+* Add user authentication
+* Add trailer preview support
+* Improve animations and transitions
+
+
+
