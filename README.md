@@ -79,7 +79,7 @@ Get your API key from: https://www.themoviedb.org/
 * Implement search functionality
 * Add user authentication
 * Add trailer preview support
-* Improve animations and transitions
+
 
 
 
