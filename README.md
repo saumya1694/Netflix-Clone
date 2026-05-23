@@ -75,7 +75,7 @@ Get your API key from: https://www.themoviedb.org/
 
 ## Future Improvements
 
-* Add movie 
+
 
   
 
