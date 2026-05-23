@@ -73,7 +73,6 @@ This project uses The MovieDB API to fetch movie and TV show information.
 
 Get your API key from: https://www.themoviedb.org/
 
-## Future Improvements
 
 
 
